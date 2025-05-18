@@ -61,10 +61,10 @@ Select the following dependencies for your new module:
 
 ### 6. Adjust Module in Gradle
 
-* From the **Gradle tab** (on the left side of the IDE), you may see the new module listed separately.
-* This indicates the module is not yet linked to the root project.
-* So delete rthe module . We will adjust it later.
-
+- From the **Gradle tab** (on the left side of the IDE), you may see the new module listed separately.
+- This indicates the module is not yet linked to the root project.
+- 🗑️ **Delete** the module — we'll recreate and link it manually.
+  
 ### 7. Clean Up the Module Folder
 
 Inside the new module directory:
@@ -84,15 +84,15 @@ Inside the new module directory:
 
 * Edit the module's `build.gradle` to define its dependencies and plugin usage.
   look featue/moduleCreation branch data-management folder's build.gradle
-
-  https://github.com/Toushika/microservice-creation/blob/feature/moduleCreation/data-management/build.gradle
-
+  
+🔗 [build.gradle](https://github.com/Toushika/microservice-creation/blob/feature/moduleCreation/data-management/build.gradle)
+  
 
 ### 9. Include the Module in `settings.gradle`
 
 At the root level, open `settings.gradle` and include the module:
 
-https://github.com/Toushika/microservice-creation/blob/feature/moduleCreation/settings.gradle
+🔗 [settings.gradle](https://github.com/Toushika/microservice-creation/blob/feature/moduleCreation/settings.gradle)
 
 ```groovy
 include 'your-module-name'
