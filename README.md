@@ -85,11 +85,13 @@ Inside the new module directory:
 ### 8. Update Module's `build.gradle`
 
 * Edit the module's `build.gradle` to define its dependencies and plugin usage.
-  look at branch
-  ```
-  feature/moduleCreation
-  ```
- **data-management** folder's build.gradle
+  look at branch- 
+
+```
+ feature/moduleCreation
+```
+
+**data-management** folder's build.gradle
   
 🔗 [build.gradle](https://github.com/Toushika/microservice-creation/blob/feature/moduleCreation/data-management/build.gradle)
   
